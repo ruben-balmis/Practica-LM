@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Reservas</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="../img/logoico.ico">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link href="../css/global.css" rel="stylesheet" />
+    <link href="../css/reservas.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header class="site-header inicio">
+        <div class="contenedor">
+            <div class="barra">
+                <a href="../index.html">
+                    <img src="../img/logoblanco.png" alt="SoloLeña">
+                </a>
+                <nav class="navegacion-barra">
+                    <a href="../index.html">Inicio</a>
+                    <a href="ubicacion.html">Ubicacion</a>
+                    <a href="menu.html">Menú</a>
+                    <a href="reservas.html">Reservas</a>
+                    <a href="galeria.html">Galería</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="caja">
+            <form>
+                <div class="formulario">
+                <label>Nombre y apellidos</label><br>
+                <input class="nombre" type="text" name="Nombre" placeholder="Nombre" required autofocus><br>
+                <label>Teléfono de contacto</label><br>
+                <input class="telefono" type="number" name="teléfono" placeholder="Telefono" required><br>
+                <label>Fecha de reserva</label><br>
+                <input class="fecha" type="date" name="fecha" required><br>
+                <label>Hora de reserva</label><br>
+                <input class="hora" type="time" name="hora" required><br>
+                <label>Número de comensales</label><br>
+                <input class="personas" type="number" min="1" max="6" required><br><br>
+                <input class="boton" type="submit" value="Reservar"><br><br>
+                </div>
+                <label class="advertencia">MEDIDAS COVID-19: Limitación de seis comensales por mesa.</label><br>
+            </form>
+        </div>
+        <aside>
+            <img src="../img/Logo.png" alt="logo lado" class="logolado"/>
+        </aside>
+    </main>
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion-footer">
+                <a href="nosotros.html">Sobre Nosotros</a>
+                <a href="cookies.html">Cookies</a>
+                <a href="privacidad.html">Política de Privacidad</a>
+                <a href="avisolegal.html">Aviso Legal</a>
+            </nav>
+            <p class="copy">Todos los Derechos Reservados 2020 &copy;</p>
+        </div>
+    </footer>
+
+    <body>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Reservas</title>
+        <meta charset="UTF-8" />
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+        <link href="../css/reservas.css" media="all" rel="stylesheet" type="text/css" />
+        <link rel="shortcut icon" type="image/x-icon"  href="../img/logoico.ico">
+    </head>
+    <body>
+        <header class="site-header inicio">
+            <div class="contenedor"> 
+                <div class="barra">
+                    <a href="index.html">
+                        <img src="../img/logoblanco.png" alt="SoloLeña">
+                    </a>
+                    <nav class="navegacion-barra">
+                        <a href="index.html">Inicio</a>
+                        <a href="ubicacion.html">Ubicacion</a>
+                        <a href="menu.html">Menú</a>
+                        <a href="reservas.html">Reservas</a>
+                        <a href="galeria.html">Galería</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label>Nombre y apellidos</label><br>
+                <input type="text" name="Nombre" placeholder="Nombre" required autofocus><br>
+                <label>Teléfono de contacto</label><br>
+                <input type="number" name="teléfono" placeholder="Telefono" required ><br>
+                <label>Fecha de reserva</label><br>
+                <input type="date" name="fecha" required><br>
+                <label>Hora de reserva</label><br>
+                <input type="time" name="hora" required><br>
+                <label>Número de comensales</label><br>
+                <input type="number" min="1" max="6" required><br><br>
+                <input class="boton" type="submit" value="Reservar"><br><br>
+                <label class="advertencia">MEDIDAS COVID-19: Limitación de seis comensales por mesa.</label><br>
+            </form>
+            <div class="background-img"><img class="fondo" src="../img/fondo.jpg" alt="fondo pagina"></div>
+        </main>
+        <footer class="site-footer seccion">
+            <div class="contenedor contenedor-footer">
+                <nav class="navegacion-footer">
+                    <a href="nosotros.html">Sobre Nosotros</a>
+                    <a href="cookies.html">Cookies</a>
+                    <a href="privacidad.html">Política de Privacidad</a>
+                    <a href="avisolegal.html">Aviso Legal</a>
+                </nav>
+                <p class="copy">Todos los Derechos Reservados 2020 &copy;</p>
+            </div>
+        </footer>
+    </body>
+</html>
