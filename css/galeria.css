@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+header{
+    height: 22.5vh;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 12.7vh;
+}
+section{
+    margin-left: 6vw;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.grises{
+    justify-content: center;
+}
+.foto{
+    padding: 3px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 350px;
+    height: 250px;
+}
+.grises .foto{
+    filter: grayscale(100%);
+    overflow: hidden;
+}
+.grises .foto:hover {
+    cursor: pointer;
+    filter: none;
+    transition: all 0.5s;
+}
